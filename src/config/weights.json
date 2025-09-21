@@ -1,0 +1,34 @@
+{
+  "bottom_indicators": {
+    "cvdd_terminal_relative": 12,
+    "m_timed_bottom_score": 15,
+    "2d_volume_burst": 8,
+    "cm_vix_fix": 10,
+    "gaussian_channel": 9,
+    "3d_mmd": 11,
+    "hash_ribbons": 14,
+    "w_wavefront": 13,
+    "supertrend": 7,
+    "pi_cycle_low": 6,
+    "puell_multiple": 16
+  },
+  "top_indicators": {
+    "cvdd_terminal_relative": 10,
+    "m_timed_top_score": 12,
+    "3d_volume": 8,
+    "bbwp": 9,
+    "mmd": 11,
+    "funding_rates": 13,
+    "nupl": 15,
+    "wavetrend_oscillator": 10,
+    "transaction_cost": 7,
+    "pi_cycle": 2
+  },
+  "wavefront_components": {
+    "m_stochastic_rsi": 0.2,
+    "m_snabbel_rsi_ema": 0.2,
+    "10d_macd": 0.2,
+    "m_tdi_gm": 0.2,
+    "m_accumulation_distribution": 0.2
+  }
+}

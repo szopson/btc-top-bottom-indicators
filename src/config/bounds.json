@@ -1,0 +1,34 @@
+{
+  "bottom_bounds": {
+    "cvdd_terminal_relative": {"lower": 0.0, "upper": 1.0},
+    "m_timed_bottom_score": {"lower": 0.0, "upper": 1.0},
+    "2d_volume_burst": {"lower": 1.0, "upper": 4.0},
+    "cm_vix_fix": {"lower": 0.0, "upper": 100.0},
+    "gaussian_channel": {"lower": -3.0, "upper": 3.0},
+    "3d_mmd": {"lower": 0.0, "upper": 5.0},
+    "hash_ribbons": {"lower": 0.0, "upper": 1.0},
+    "w_wavefront": {"lower": -1.0, "upper": 1.0},
+    "supertrend": {"lower": 0.0, "upper": 1.0},
+    "pi_cycle_low": {"lower": 0.0, "upper": 365.0},
+    "puell_multiple": {"lower": 0.1, "upper": 2.0}
+  },
+  "top_bounds": {
+    "cvdd_terminal_relative": {"lower": 0.0, "upper": 1.0},
+    "m_timed_top_score": {"lower": 0.0, "upper": 1.0},
+    "3d_volume": {"lower": 1.0, "upper": 4.0},
+    "bbwp": {"lower": 0.0, "upper": 100.0},
+    "mmd": {"lower": 0.0, "upper": 5.0},
+    "funding_rates": {"lower": -50.0, "upper": 150.0},
+    "nupl": {"lower": -32.67, "upper": 66.8},
+    "wavetrend_oscillator": {"lower": -100.0, "upper": 100.0},
+    "transaction_cost": {"lower": 0.0, "upper": 100.0},
+    "pi_cycle": {"lower": 0.0, "upper": 1.0}
+  },
+  "timeframe_lookbacks": {
+    "M": 24,
+    "W": 52,
+    "5D": 72,
+    "3D": 120,
+    "D": 365
+  }
+}

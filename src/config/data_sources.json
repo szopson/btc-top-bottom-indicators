@@ -1,0 +1,60 @@
+{
+  "bitcoin_magazine_pro": {
+    "base_url": "https://www.bitcoinmagazinepro.com/charts/",
+    "endpoints": {
+      "cvdd": "cvdd/",
+      "terminal_price": "terminal-price/",
+      "nupl": "relative-unrealized-profit--loss/"
+    },
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+  },
+  "ycharts": {
+    "base_url": "https://ycharts.com/indicators/",
+    "endpoints": {
+      "bitcoin_avg_tx_fee": "bitcoin_average_transaction_fee"
+    },
+    "headers": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    }
+  },
+  "tradingview": {
+    "symbol": "BTCUSD",
+    "timeframes": {
+      "M": "1M",
+      "W": "1W",
+      "5D": "5D",
+      "3D": "3D",
+      "D": "1D"
+    },
+    "indicators": {
+      "rsi": {"period": 14},
+      "macd": {"fast": 12, "slow": 26, "signal": 9},
+      "stochastic": {"k_period": 14, "d_period": 3},
+      "supertrend": {"period": 10, "multiplier": 3.0},
+      "bollinger_bands": {"period": 20, "std_dev": 2}
+    }
+  },
+  "onchain_providers": {
+    "glassnode": {
+      "base_url": "https://api.glassnode.com/v1/metrics/",
+      "endpoints": {
+        "puell_multiple": "indicators/puell_multiple",
+        "hash_ribbon": "mining/hash_rate_ma"
+      }
+    },
+    "coinmetrics": {
+      "base_url": "https://api.coinmetrics.io/v4/timeseries/",
+      "endpoints": {
+        "difficulty": "asset-metrics",
+        "hash_rate": "asset-metrics"
+      }
+    }
+  },
+  "funding_rates": {
+    "binance": "https://fapi.binance.com/fapi/v1/premiumIndex?symbol=BTCUSDT",
+    "bybit": "https://api.bybit.com/v2/public/tickers?symbol=BTCUSD",
+    "okex": "https://www.okx.com/api/v5/public/funding-rate?instId=BTC-USDT-SWAP"
+  }
+}
